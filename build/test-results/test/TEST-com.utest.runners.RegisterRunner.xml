@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.utest.runners.RegisterRunner" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-06T21:46:29" hostname="SQABOG-SQA-4298" time="86.481">
+  <properties/>
+  <testcase name="Register User Successfully" classname="com.utest.runners.RegisterRunner" time="86.481"/>
+  <system-out><![CDATA[
+@register
+Scenario: Register User Successfully      ?[90m# src/test/resources/features/register.feature:4?[0m
+  ?[32mGiven ?[0m?[32mthe user is in the page utest.com?[0m ?[90m# com.utest.stepDefinitions.RegisterStepDefinition.the_user_is_in_the_page_utest_com()?[0m
+  ?[32mWhen ?[0m?[32mThe user inputs data for register?[0m  ?[90m# com.utest.stepDefinitions.RegisterStepDefinition.the_user_inputs_data_for_register()?[0m
+  ?[32mAnd ?[0m?[32mThe user inputs data of address?[0m     ?[90m# com.utest.stepDefinitions.RegisterStepDefinition.the_user_inputs_data_of_address()?[0m
+  ?[32mAnd ?[0m?[32mThe user inputs data of device?[0m      ?[90m# com.utest.stepDefinitions.RegisterStepDefinition.the_user_inputs_data_of_device()?[0m
+  ?[32mThen ?[0m?[32mUser confirm your register?[0m         ?[90m# com.utest.stepDefinitions.RegisterStepDefinition.user_confirm_your_register()?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 4087
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+feb. 06, 2024 4:46:36 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 121
+feb. 06, 2024 4:46:36 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.7.1` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+?[32m?[1m?????????????????????????????????????????????????????????????????????????????[0m
+?[32m?[1m??[0m View your Cucumber Report at:                                            ?[32m?[1m??[0m
+?[32m?[1m??[0m ?[1m?[36m?[4mhttps://reports.cucumber.io/reports/56527791-4e17-4327-9fc3-a153a4801a24?[0m ?[32m?[1m??[0m
+?[32m?[1m??[0m                                                                          ?[32m?[1m??[0m
+?[32m?[1m??[0m ?[1mThis report will self-destruct in 24h.?[0m                                   ?[32m?[1m??[0m
+?[32m?[1m??[0m Keep reports forever: ?[4m?[1m?[36mhttps://reports.cucumber.io/profile?[0m                ?[32m?[1m??[0m
+?[32m?[1m?????????????????????????????????????????????????????????????????????????????[0m]]></system-err>
+</testsuite>
